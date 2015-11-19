@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="light_background_color" type="color">#fff</item>
+    <item name="button_colour" type="color">#cc0000</item>
+    <item name="input_box" type="color">#F2F2F2</item>
+    <item name="input_box_text" type="color">#B0B0B0</item>
+    <item name="input_text_hint" type="color">#6B6B6B</item>
+
+    <item name="white" type="color">#FFFFFF</item>
+
+</resources>

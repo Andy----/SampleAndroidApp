@@ -1,8 +1,57 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_background_color"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity" >
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userNameInput"
+            android:padding="10dp"
+            android:background="@color/input_box"
+            android:textColor="@color/input_box_text"
+            android:textColorHint="@color/input_text_hint"
+            android:hint="email"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordInput"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:background="@color/input_box"
+            android:textColor="@color/input_box_text"
+            android:textColorHint="@color/input_text_hint"
+            android:hint="password"
+            android:layout_below="@+id/emailInput"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"/>
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textColor="@color/white"
+            android:background="@color/button_colour"
+            android:layout_below="@+id/passwordInput"
+            android:layout_marginTop="40dp"
+            android:onClick="OnClick"/>
+
+    </LinearLayout>
 
 </RelativeLayout>
