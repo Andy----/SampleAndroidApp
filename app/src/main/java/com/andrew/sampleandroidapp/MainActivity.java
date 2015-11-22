@@ -104,5 +104,3 @@ public class MainActivity extends AppCompatActivity {
             pDialog.dismiss();
     }
 }
-
-// comment
