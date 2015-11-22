@@ -49,8 +49,7 @@
             android:textColor="@color/white"
             android:background="@color/button_colour"
             android:layout_below="@+id/passwordInput"
-            android:layout_marginTop="40dp"
-            android:onClick="OnClick"/>
+            android:layout_marginTop="40dp" />
 
     </LinearLayout>
 
